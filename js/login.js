@@ -1,4 +1,5 @@
 document.getElementById('submit-btn').addEventListener('click',function(){
+    //get user email
     const userEmail = document.getElementById('user-email');
     const userEmailField = userEmail.value;
    
@@ -7,7 +8,10 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     const userPassField = userPassword.value;
    
     if (userEmailField == 'solaymanweb27@gmail.com' && userPassField == 1234 ){
-        console.log('valid email')
+        window.location.href ='banking.html';
     }
     
 })
+
+
+
